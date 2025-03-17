@@ -35,7 +35,7 @@ def formatar_registro(cnpj):
  {"identificador_detalhe" : "1"},
  {"data": data_atual},
  {"cnpj": cnpj.strip()+"S"},
- {"mci_tcm" :"906114103"}]
+ {"mci_" :""}]
  registro_concat= "".join([var for campo in campos_detalhe for var in campo.values()])
  registro_f = registro_concat.ljust(60, " ")
  return registro_f

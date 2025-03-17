@@ -9,7 +9,7 @@
 Header
 | data no formato AAAAMMDD
 - ``0+data+nomePadrão+MCI+filler``
-- header: 0+20250313+GFAF035E+906114103+0 * filler restante
+- header: 0+20250313+GFAF035E+MCI+0 * filler restante
 
 Detalhe(registros desejados)
 - ``1+MCI+CNPJ+SouN+filler``
